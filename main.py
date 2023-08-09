@@ -1,6 +1,5 @@
 # Imports
 import numpy as np
-import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, Flatten, Dense
@@ -33,7 +32,7 @@ model.compile(
 # Model training
 history = model.fit(
     train_data, train_labels,
-    epochs=100,
+    epochs=9,
     batch_size=512,
     validation_split=0.2
 )
