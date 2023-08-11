@@ -71,4 +71,4 @@ history = model.fit(
 
 # Model evaluation
 test_loss, accuracy = model.evaluate(test_data, test_labels)
-print(f"Test Accuracy : {accuracy*100:.2f}%"). 
+print(f"Test Accuracy : {accuracy*100:.2f}%")
