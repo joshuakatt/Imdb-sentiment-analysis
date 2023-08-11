@@ -64,7 +64,7 @@ model.compile(
 # Model training
 history = model.fit(
     train_data, train_labels,
-    epochs=10,
+    epochs=6,
     batch_size=512,
     validation_split=0.2
 )
